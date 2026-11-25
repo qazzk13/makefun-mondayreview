@@ -2,13 +2,14 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // One-line review of my Monday, written like an annoyed product review.
-// First draft leaned on generic grumbling about alarms and late trains.
-// The rewrite keeps the star rating up front and swaps in the specifics
-// that actually ruined it: the standup moving earlier and decaf coffee.
+// Rewrite: kept the star rating up front, dropped the generic alarm and
+// late-train grumbling for the two things that actually ruined it —
+// standup got moved an hour earlier with no warning, and the coffee
+// someone handed me turned out to be decaf.
 process.umask(0o022);
 
 const line =
-  "1 star. My alarm didn't go off, the train was late, and Monday just did Monday things to me all day, would not recommend.";
+  "1 star. Standup got moved an hour earlier with no warning, and the coffee someone handed me turned out to be decaf, so I spent Monday running on fumes.";
 
 const len = [...line].length;
 if (len < 1 || len > 200) {

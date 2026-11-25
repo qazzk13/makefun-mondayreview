@@ -6,7 +6,7 @@
 
 My Monday, reviewed the way I'd review a product that wasted my morning. One star, and honestly it earned it.
 
-> 1 star. My alarm didn't go off, the train was late, and Monday just did Monday things to me all day, would not recommend.
+> 1 star. Standup got moved an hour earlier with no warning, and the coffee someone handed me turned out to be decaf, so I spent Monday running on fumes.
 
 ## Run it
 
